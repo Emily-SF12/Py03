@@ -3,7 +3,7 @@ import sys
 
 def show_data(args: list[str]) -> None:
     if len(args) == 1:
-        print("NO arguments provided!")
+        print("No arguments provided!")
     else:
         print(f"Program name: {args[0]}")
         print(f"Arguments received: {len(args) - 1}")
